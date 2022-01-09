@@ -21,6 +21,7 @@ public class Average_of_elements {
     	System.out.println("enter array size");
     	int n =sc.nextInt();
         int a[] =new int[n];
+        
         System.out.println("enter array elements");
         for(int i=0;i<n;i++) {
         	a[i]=sc.nextInt();
