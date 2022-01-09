@@ -28,8 +28,6 @@ class myStack{
 			int x=stack[top--];
 			System.out.println(x+ "  pop element");
 			
-			
-	
 		}
 		
 	}
@@ -49,14 +47,12 @@ class myStack{
 			System.out.println(stack[i]);
 		}
 		
-		
 	}
 }
-public class Stack {
-public static void main(String[] args) {
-		
+
+public class stack1 {
+	public static void main(String[] args) {
 		myStack obj=new myStack();
-		
 		obj.push(6);
 		obj.push(76);
 		obj.push(45);
@@ -71,5 +67,4 @@ public static void main(String[] args) {
 		System.out.println("\nthe stack contains ");
 		obj.display();
 }
-
 }
