@@ -31,39 +31,24 @@ class myStack{
 		}
 		
 	}
-	public void peak() {
-		if(top<0) {
-			System.out.println("stack is empty");
-		}else {
-			int x=stack[top];
-			System.out.println(x +"  peak element");
-			
-		}
-		
-	}
-	
 	void display() {
 		for(int i=top;i>-1;i--) {
 			System.out.println(stack[i]);
 		}
-		
 	}
 }
 
 public class stack1 {
 	public static void main(String[] args) {
 		myStack obj=new myStack();
-		obj.push(6);
-		obj.push(76);
-		obj.push(45);
-		obj.push(76);
-		obj.push(23);
-		obj.push(44);
+		obj.push(1);
+		obj.push(2);
+		obj.push(3);
+		obj.push(4);
+		obj.push(5);
 		
 		obj.pop();
-		obj.pop();
 		
-		obj.peak();
 		System.out.println("\nthe stack contains ");
 		obj.display();
 }
