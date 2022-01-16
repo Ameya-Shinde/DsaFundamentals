@@ -1,7 +1,7 @@
 package jan10;
 
 public class Basic_ll {
-	Node head;
+	public Node head;
 
 	  class Node {
 	    int data;
@@ -51,8 +51,7 @@ public class Basic_ll {
 	    temp.next = next;
 	  }
 
-	  // Search a node
-	  boolean search(Node head, int key) {
+	  public boolean search(Node head, int key) {
 	    Node current = head;
 	    while (current != null) {
 	      if (current.data == key)
