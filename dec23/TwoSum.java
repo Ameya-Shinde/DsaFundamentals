@@ -43,6 +43,7 @@ public class TwoSum {
 
         Arrays.sort(arr);
         pairedElements(arr, 8);
+        sc.close();
 
     }
 
